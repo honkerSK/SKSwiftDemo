@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  ParticleAnimation
+//  GIFAnimation
 //
 //  Created by sunke on 2020/8/28.
 //  Copyright © 2020 KentSun. All rights reserved.
@@ -8,6 +8,7 @@
 
 import UIKit
 
+@available(iOS 13, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
