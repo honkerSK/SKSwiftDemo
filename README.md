@@ -6,5 +6,7 @@
 ### 03_SKGiftAnimation(直播礼物点击动画)
 ### 04_MixedImageTextDemo(TextView图文混排)
 ### 05_SKWaterfallLayout(swift5.1 瀑布流布局)
+### 06_RxSwiftPractice(RxSwift控件练习)
+
 
 
