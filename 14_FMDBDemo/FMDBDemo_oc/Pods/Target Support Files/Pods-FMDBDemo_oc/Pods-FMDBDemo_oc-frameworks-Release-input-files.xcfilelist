@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-FMDBDemo_oc/Pods-FMDBDemo_oc-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework

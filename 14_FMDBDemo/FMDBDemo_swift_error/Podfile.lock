@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.2.2)
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Kingfisher (5.15.1):
+    - Kingfisher/Core (= 5.15.1)
+  - Kingfisher/Core (5.15.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - FMDB
+  - Kingfisher
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FMDB
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Kingfisher: 3260a05e78a17fdbeb2f14dd8e66ffc768491231
+
+PODFILE CHECKSUM: 847cc245ed44ae44d0ec1f22a56fd168c37899af
+
+COCOAPODS: 1.9.1
