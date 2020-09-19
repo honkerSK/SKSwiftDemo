@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VbT-1g-Q27">
+                                <rect key="frame" x="184" y="253" width="46" height="30"/>
+                                <state key="normal" title="创建表"/>
+                                <connections>
+                                    <action selector="createTable" destination="BYZ-38-t0r" eventType="touchUpInside" id="eTP-UQ-Fct"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AnE-ta-OEg">
+                                <rect key="frame" x="184" y="313" width="46" height="30"/>
+                                <state key="normal" title="删除表"/>
+                                <connections>
+                                    <action selector="dropTable" destination="BYZ-38-t0r" eventType="touchUpInside" id="mhh-mT-riF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xHK-nh-44z">
+                                <rect key="frame" x="176" y="373" width="62" height="30"/>
+                                <state key="normal" title="插入数据"/>
+                                <connections>
+                                    <action selector="insertData" destination="BYZ-38-t0r" eventType="touchUpInside" id="RpX-w3-TUw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5j7-JZ-eW9">
+                                <rect key="frame" x="176" y="433" width="62" height="30"/>
+                                <state key="normal" title="更新数据"/>
+                                <connections>
+                                    <action selector="updateData" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9n-TX-cJv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crS-S4-fp0">
+                                <rect key="frame" x="176" y="493" width="62" height="30"/>
+                                <state key="normal" title="删除数据"/>
+                                <connections>
+                                    <action selector="deleteData" destination="BYZ-38-t0r" eventType="touchUpInside" id="zK7-Bm-kM6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="REr-S4-oNy">
+                                <rect key="frame" x="176" y="553" width="62" height="30"/>
+                                <state key="normal" title="查询数据"/>
+                                <connections>
+                                    <action selector="queryData" destination="BYZ-38-t0r" eventType="touchUpInside" id="lb8-1o-hHb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="AnE-ta-OEg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5B5-0S-vxq"/>
+                            <constraint firstItem="5j7-JZ-eW9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6sV-dU-m4G"/>
+                            <constraint firstItem="xHK-nh-44z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DLJ-yo-ez5"/>
+                            <constraint firstItem="AnE-ta-OEg" firstAttribute="top" secondItem="VbT-1g-Q27" secondAttribute="bottom" constant="30" id="GD7-dv-gLF"/>
+                            <constraint firstItem="crS-S4-fp0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RvF-ce-aPI"/>
+                            <constraint firstItem="REr-S4-oNy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SqP-Ll-AL1"/>
+                            <constraint firstItem="VbT-1g-Q27" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nM9-8c-6pD"/>
+                            <constraint firstItem="crS-S4-fp0" firstAttribute="top" secondItem="5j7-JZ-eW9" secondAttribute="bottom" constant="30" id="otk-dw-Un6"/>
+                            <constraint firstItem="5j7-JZ-eW9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="qUa-8F-78u"/>
+                            <constraint firstItem="5j7-JZ-eW9" firstAttribute="top" secondItem="xHK-nh-44z" secondAttribute="bottom" constant="30" id="wmv-cI-W3e"/>
+                            <constraint firstItem="REr-S4-oNy" firstAttribute="top" secondItem="crS-S4-fp0" secondAttribute="bottom" constant="30" id="xQr-28-9TQ"/>
+                            <constraint firstItem="xHK-nh-44z" firstAttribute="top" secondItem="AnE-ta-OEg" secondAttribute="bottom" constant="30" id="zuw-dZ-MsG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="100"/>
+        </scene>
+    </scenes>
+</document>
