@@ -119,7 +119,6 @@ class PhotoBrowserCell: UICollectionViewCell {
     /// 获取大图的URL
     private func bigImageURL(smallURL : URL) -> URL {
         // 1.获取小图url的字符串
-//        let bigURLString = smallURL.absoluteString.stringByReplacingOccurrencesOfString("q", withString: "m")
         let bigURLString = smallURL.absoluteString.replacingOccurrences(of: "q", with: "m")
         
         // 2.创建大图的URL

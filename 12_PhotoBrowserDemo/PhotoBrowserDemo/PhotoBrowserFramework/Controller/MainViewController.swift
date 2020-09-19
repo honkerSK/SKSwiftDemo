@@ -73,7 +73,7 @@ extension MainViewController : PhotoBrowserPresentedDelegate {
         }
         
         // 2.计算转化为UIWindow上时的frame
-        //        let startRect = collectionView!.convertRect(cell.frame, toCoordinateSpace: UIApplication.sharedApplication.keyWindow!)
+        //let startRect = collectionView!.convertRect(cell.frame, toCoordinateSpace: UIApplication.sharedApplication.keyWindow!)
         let startRect = collectionView.convert(cell.frame, to: UIApplication.shared.keyWindow!)
         
         return startRect
@@ -88,7 +88,7 @@ extension MainViewController : PhotoBrowserPresentedDelegate {
         }
         
         // 2.取出对应的image
-        //         var image = SDWebImageManager.sharedManager().imageCache.imageFromDiskCacheForKey(url.absoluteString)
+        //var image = SDWebImageManager.sharedManager().imageCache.imageFromDiskCacheForKey(url.absoluteString)
 
         var image : UIImage?
         ImageCache.default.retrieveImage(forKey: url.absoluteString) { (result) in

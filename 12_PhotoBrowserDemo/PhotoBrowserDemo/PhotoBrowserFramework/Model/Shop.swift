@@ -9,6 +9,7 @@
 import Foundation
 
 class Shop: NSObject {
+    
 //    var picURL : URL?
 //    @objc var download_url : String? {
 //        didSet {
