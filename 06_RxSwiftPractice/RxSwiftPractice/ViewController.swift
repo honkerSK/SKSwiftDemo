@@ -116,7 +116,6 @@ extension ViewController : UITextFieldDelegate {
         }
         return true
     }
-    
 }
 
 extension ViewController {
@@ -202,7 +201,6 @@ extension ViewController{
 
 
 extension ViewController: UIScrollViewDelegate{
-    
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         print(scrollView.contentOffset)
     }

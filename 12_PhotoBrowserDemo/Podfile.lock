@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.2.2)
+  - Kingfisher (5.15.1):
+    - Kingfisher/Core (= 5.15.1)
+  - Kingfisher/Core (5.15.1)
+  - MJRefresh (3.5.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Alamofire
+  - Kingfisher
+  - MJRefresh
+  - SVProgressHUD
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Alamofire
+    - Kingfisher
+    - MJRefresh
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  Kingfisher: 3260a05e78a17fdbeb2f14dd8e66ffc768491231
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: fc0fd3e572a4135483b15810c4721569a98e1a08
+
+COCOAPODS: 1.9.1
