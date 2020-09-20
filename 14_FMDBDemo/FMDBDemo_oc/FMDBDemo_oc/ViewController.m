@@ -45,7 +45,7 @@
         NSArray *dictArray = resultData[@"list"];
         for (NSDictionary *dict in dictArray) {
             User *user = [User dict:dict];
-            [self->_datasource addObject:user];
+            [self.datasource addObject:user];
             [user insert];
         }
         [self.tableView reloadData];

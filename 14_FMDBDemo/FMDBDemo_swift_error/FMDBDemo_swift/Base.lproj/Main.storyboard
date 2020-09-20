@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeCell" rowHeight="169" id="PC7-UW-BDK">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeCell" rowHeight="169" id="PC7-UW-BDK" customClass="HomeCell">
                                 <rect key="frame" x="0.0" y="28" width="414" height="169"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PC7-UW-BDK" id="rFD-99-7iW">
@@ -52,6 +52,11 @@
                                         <constraint firstItem="PJy-cf-JIQ" firstAttribute="top" secondItem="rFD-99-7iW" secondAttribute="topMargin" constant="16" id="xw8-ka-5dM"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="contentLabel" destination="Fij-mZ-QN3" id="hhR-Ql-Oa9"/>
+                                    <outlet property="nameLabel" destination="PJy-cf-JIQ" id="6tq-jb-VhH"/>
+                                    <outlet property="timeLabel" destination="goD-E5-9Md" id="5zh-y5-Ehn"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
